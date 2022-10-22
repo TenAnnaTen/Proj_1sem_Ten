@@ -1,3 +1,4 @@
+
 while True:
     try:
         x = float(input('Введите веществнное число, модуль котрого < 1: '))
@@ -8,7 +9,6 @@ while True:
             while c != n + 1:
                 b = ((-1 ** n) * (x ** (2 * n + 1)) / (2 * n + 1))
                 a += b
-                print(c)
                 c += 1
             print(f'Приблежённое значение arctg(x): {a}')
             break
