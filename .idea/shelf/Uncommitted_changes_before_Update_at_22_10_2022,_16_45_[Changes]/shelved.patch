@@ -1,0 +1,59 @@
+Index: PZ_4/PZ_4_1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>while True:\n    try:\n        x = float(input('Введите веществнное число, модуль котрого < 1: '))\n        n = int(input('Введите целое число, большее 0: '))\n        if abs(x) < 1 and n > 0:\n            a = x\n            c = 1\n            while c != n + 1:\n                b = ((-1 ** n) * (x ** (2 * n + 1)) / (2 * n + 1))\n                a += b\n                print(c)\n                c += 1\n            print(f'Приблежённое значение arctg(x): {a}')\n            break\n        else:\n            print('Неправильно введённые данные. Попробуйте ещё раз')\n            continue\n    except:\n        print('Неправильно введённые данные. Попробуйте ещё раз')\n        continue
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PZ_4/PZ_4_1.py b/PZ_4/PZ_4_1.py
+--- a/PZ_4/PZ_4_1.py	(revision da7fa55408753c5533ecfd840e962c0e0d9af179)
++++ b/PZ_4/PZ_4_1.py	(date 1666443440680)
+@@ -1,3 +1,4 @@
++
+ while True:
+     try:
+         x = float(input('Введите веществнное число, модуль котрого < 1: '))
+@@ -8,7 +9,6 @@
+             while c != n + 1:
+                 b = ((-1 ** n) * (x ** (2 * n + 1)) / (2 * n + 1))
+                 a += b
+-                print(c)
+                 c += 1
+             print(f'Приблежённое значение arctg(x): {a}')
+             break
+Index: PZ_4/PZ_4_2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PZ_4/PZ_4_2.py b/PZ_4/PZ_4_2.py
+new file mode 100644
+--- /dev/null	(date 1666445020962)
++++ b/PZ_4/PZ_4_2.py	(date 1666445020962)
+@@ -0,0 +1,25 @@
++while True:
++
++    try:
++        A = float(input('Введите число, большее 1: '))
++
++        if A > 1:
++            b = 1
++            K = 2
++
++            while b <= A:
++                b += 1 / K
++                K += 1
++
++            b -= 1 / K
++            K -= 2
++            print(f'K = {K}. Сумма: {b}')
++            break
++
++        else:
++            print('Число не больше 1')
++            continue
++
++    except:
++        print('Неверно введённые данные')
++        continue
+\ No newline at end of file
