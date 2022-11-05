@@ -10,13 +10,18 @@ def Mean(X, Y):
     print(f'Cреднее геометрическое: {GMean}')
 
 
-A = float(input('Введите значения A, B, C, D. Значение А: '))
-B = float(input('Значение B: '))
-C = float(input('Значение C: '))
-D = float(input('Значение D: '))
-print('Для A и B')
-Mean(A, B)
-print('Для A и C')
-Mean(A, C)
-print('Для A и D')
-Mean(A, D)
+try:
+    A = float(input('Введите значения A, B, C, D. Значение А (> 0): '))
+    B = float(input('Значение B: '))
+    C = float(input('Значение C: '))
+    D = float(input('Значение D: '))
+    print('Для A и B')
+    Mean(A, B)
+    print('Для A и C')
+    Mean(A, C)
+    print('Для A и D')
+    Mean(A, D)
+except TypeError:
+    print('Введите числа')
+except ZeroDivisionError:
+    print('Введите А > 0')
