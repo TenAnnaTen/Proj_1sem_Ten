@@ -51,3 +51,4 @@ try:
         print(f'Наиболее удалённые от начала координат: ({maxi_X}, {maxi_Y})')
 except TypeError:
     print('Введите целое число')
+
