@@ -4,9 +4,9 @@ import random
 
 
 a = str(random.randint(0, 1000))
-print(a)
+print(f'Число: {a}')
 b = 0
 for i in range(0, len(a)):
     b += int(a) % 10  # Выводим и прибавляем последнюю цифру
     a = int(a) // 10  # Убираем последнюю цифру из числа
-print(b)
+print(f'Результат: {b}')
