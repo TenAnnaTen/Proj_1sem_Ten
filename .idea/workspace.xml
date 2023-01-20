@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48c73bfc-00de-4dda-869d-326ba1fa8c00" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_11/PZ_11_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_11/PZ_11_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_11/file_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_11/file_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_11/file_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_11/file_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_11/file_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_11/file_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_11/PZ_11_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_11/PZ_11_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,10 +174,10 @@
     </configuration>
     <list>
       <item itemvalue="Python.game" />
-      <item itemvalue="Python.PZ_11_1" />
-      <item itemvalue="Python.PZ_11_2" />
       <item itemvalue="Python.PZ_10" />
       <item itemvalue="Python.PZ_10_1" />
+      <item itemvalue="Python.PZ_11_1" />
+      <item itemvalue="Python.PZ_11_2" />
       <item itemvalue="Python.PZ_7_1" />
     </list>
     <recent_temporary>
@@ -356,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673784006138</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="commit">
+      <created>1673790008214</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1673790008214</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
