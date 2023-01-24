@@ -5,6 +5,7 @@ import random
 from functools import reduce
 
 ocenki = [random.randint(2, 5) for i in range(random.randint(2, 10))]
+print(f'Текущие оценки: {ocenki}')
 itog = reduce(lambda x, y: x + y, ocenki)
 dva = [i for i in ocenki if i == 2]
 tri = [i for i in ocenki if i == 3]
