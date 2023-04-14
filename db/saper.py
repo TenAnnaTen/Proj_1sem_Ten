@@ -22,5 +22,18 @@ with sq.connect('saper.db') as con:
      cur = con.cursor()
      
 cur.execute("SELECT * FROM users WHERE old > 20 AND score > 2000 AND sex == 1")
-result = cur.fetchall()
-print(result)
+print(cur.fetchall())
+
+
+with sq.connect('saper.db') as con:
+     cur = con.cursor()
+     
+cur.execute("SELECT * FROM users WHERE old > 20 ORDER BY old DESC")
+print(cur.fetchall())
+
+
+with sq.connect('saper.db') as con:
+     cur = con.cursor()
+     
+cur.execute("SELECT * FROM users WHERE old IN(27, 13) AND score > 2000")
+print(cur.fetchall())
