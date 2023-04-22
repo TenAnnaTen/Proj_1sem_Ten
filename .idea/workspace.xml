@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48c73bfc-00de-4dda-869d-326ba1fa8c00" name="Changes" comment="add db">
+    <list default="true" id="48c73bfc-00de-4dda-869d-326ba1fa8c00" name="Changes" comment="add 15PZ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/saper.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/saper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Proj_1sem_Ten/db&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Proj_1sem_Ten&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
@@ -173,10 +172,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.game" />
       <item itemvalue="Python.PZ_14_1" />
       <item itemvalue="Python.code (1)" />
       <item itemvalue="Python.code" />
+      <item itemvalue="Python.game" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.proverka" />
     </list>
@@ -465,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678550024853</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add 15PZ">
+      <created>1681481936099</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1681481936099</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,6 +491,7 @@
     <MESSAGE value="..." />
     <MESSAGE value="commit" />
     <MESSAGE value="add db" />
-    <option name="LAST_COMMIT_MESSAGE" value="add db" />
+    <MESSAGE value="add 15PZ" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 15PZ" />
   </component>
 </project>
