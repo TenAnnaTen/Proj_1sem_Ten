@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48c73bfc-00de-4dda-869d-326ba1fa8c00" name="Changes" comment="add pz17">
+    <list default="true" id="48c73bfc-00de-4dda-869d-326ba1fa8c00" name="Changes" comment="add project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/key_and_back.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/key_and_back.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,12 +181,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.PZ_17_1" />
-      <item itemvalue="Python.PZ_17_2" />
       <item itemvalue="Python.game" />
-      <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.sound" />
+      <item itemvalue="Python.PZ_17_1" />
+      <item itemvalue="Python.PZ_17_2" />
+      <item itemvalue="Python.main (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -490,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684605086457</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add project">
+      <created>1685374570423</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1685374570423</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -513,6 +523,7 @@
     <MESSAGE value="add 15PZ" />
     <MESSAGE value="add comments" />
     <MESSAGE value="add pz17" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pz17" />
+    <MESSAGE value="add project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project" />
   </component>
 </project>

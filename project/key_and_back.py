@@ -2,8 +2,14 @@ import pygame
 from pygame.locals import *
 
 pygame.mixer.init()
+pygame.init()
+window = pygame.display.set_mode((700, 450))
 
-sounds = {
+sounds = {}
+
+
+def load_sounds():
+    sounds.update({
         K_a: pygame.mixer.Sound("sounds/a.wav"),
         K_s: pygame.mixer.Sound("sounds/z.wav"),
         K_d: pygame.mixer.Sound("sounds/l.wav"),
@@ -40,11 +46,26 @@ sounds = {
         K_8: pygame.mixer.Sound("sounds/8.wav"),
         K_9: pygame.mixer.Sound("sounds/9.wav"),
         K_0: pygame.mixer.Sound("sounds/0.wav"),
-    }
+    })
+    return sounds
 
-background_frames = [
+
+def load_background_frames():
+    background_frames = [
         pygame.image.load("paint/pixil-frame-0.png"),
         pygame.image.load("paint/pixil-frame-1.png"),
         pygame.image.load("paint/pixil-frame-2.png"),
-]
+    ]
+    return background_frames
 
+
+character_frames = [pygame.image.load("paint/man1.png").convert_alpha(),
+                    pygame.image.load("paint/man2.png").convert_alpha(),
+                    pygame.image.load("paint/man3.png").convert_alpha(),
+                    pygame.image.load("paint/man4.png").convert_alpha(),
+                    pygame.image.load("paint/man5.png").convert_alpha(),
+                    pygame.image.load("paint/man6.png").convert_alpha()]
+
+cat = [pygame.image.load("paint/cat0.png").convert_alpha(), pygame.image.load("paint/cat1.png").convert_alpha(),
+       pygame.image.load("paint/cat2.png").convert_alpha(), pygame.image.load("paint/cat3.png").convert_alpha(),
+       pygame.image.load("paint/cat4.png").convert_alpha(), pygame.image.load("paint/cat5.png").convert_alpha()]
