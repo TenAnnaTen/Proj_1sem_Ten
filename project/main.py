@@ -14,10 +14,8 @@ def main_loop():
     menu.add.button('Инструкция', instr_game)
     menu.add.button('Выход', quit_game)
 
-    clock = pygame.time.Clock()
     running = True
     while running:
-        clock.tick(60)
 
         for event in pygame.event.get():
             if event.type == QUIT:
